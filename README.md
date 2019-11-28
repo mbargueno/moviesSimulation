@@ -4,20 +4,21 @@
 
 ### Ejercicio 1.
 #### getMovieById
-        Crea una función getMovieById() que busque una película por su id.
-    ```
+  Crea una función getMovieById() que busque una película por su id.
+  
+```
 
         - La "petición" debe hacerse a través de un __callback__.
         - Dentro del callback debe haber un setTimeout para mayor realismo en la petición (Pon tantos segundos como tiempo estés dispuesto a esperar...)
         - Si encuentra una coincidencia, la función deberá devolver la película encontrada.
         - En caso de no encontrar una coincidencia deberá responder un error: "No se ha encontrado ninguna película con la id [ID]"
   
-    ```
+```
 
 ### Ejercicio 2.
 
 #### getMovieByTitle
-        Crea una función getMovieByTitle() que busque una película por `title`. Sin embargo, esta vez no queremos una coincidencia completa, si no que debe comenzar por el string que le enviemos.
+ Crea una función getMovieByTitle() que busque una película por `title`. Sin embargo, esta vez no queremos una coincidencia completa, si no que debe comenzar por el string que le enviemos.
         
         Ejemplo: 
         Queremos buscar una película cuyo título empiece por "The". 

@@ -3,7 +3,7 @@
 ## Simulando peticiones a una base de datos.
 
 ### Ejercicio 1.
-    #### getMovieById
+#### getMovieById
         Crea una función getMovieById() que busque una película por su id.
     ```
 
@@ -16,7 +16,7 @@
 
 ### Ejercicio 2.
 
-    #### getMovieByTitle
+#### getMovieByTitle
         Crea una función getMovieByTitle() que busque una película por `title`. Sin embargo, esta vez no queremos una coincidencia completa, si no que debe comenzar por el string que le enviemos.
         
         Ejemplo: 
@@ -34,7 +34,7 @@
     ```
 
 ### Ejercicio 3. 
-    #### getMovieByShowtimes
+#### getMovieByShowtimes
         En este caso, daréis una opción para aquellos que quieren ir al cine, pero que les da igual qué película ver. Solo quieren buscar por una hora a la que les venga bien. 
 
         Para ello, deberéis filtrar dentro del array para encontrar una película que se emita a determinada hora (showtimes). Es decir, deberéis encontrar una coincidencia dentro del array que (PISTA!)incluya la hora que paséis como parametro.

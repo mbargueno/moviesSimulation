@@ -20,10 +20,10 @@
 #### getMovieByTitle
  Crea una función getMovieByTitle() que busque una película por `title`. Sin embargo, esta vez no queremos una coincidencia completa, si no que debe comenzar por el string que le enviemos.
         
-        Ejemplo: 
-        Queremos buscar una película cuyo título empiece por "The". 
+  Ejemplo: 
+   Queremos buscar una película cuyo título empiece por "The". 
         
-        Si no conoces el método, deberás tratar de buscarlo antes de preguntar. Google lo sabe todo!!! Si no lo encuentras, pregunta. Aunque me temo que el profesor no lo sabe todo... 
+  Si no conoces el método, deberás tratar de buscarlo antes de preguntar. Google lo sabe todo!!! Si no lo encuentras, pregunta. Aunque me temo que el profesor no lo sabe todo... 
 
     ```
 
@@ -36,9 +36,9 @@
 
 ### Ejercicio 3. 
 #### getMovieByShowtimes
-        En este caso, daréis una opción para aquellos que quieren ir al cine, pero que les da igual qué película ver. Solo quieren buscar por una hora a la que les venga bien. 
+  En este caso, daréis una opción para aquellos que quieren ir al cine, pero que les da igual qué película ver. Solo quieren buscar por una hora a la que les venga bien. 
 
-        Para ello, deberéis filtrar dentro del array para encontrar una película que se emita a determinada hora (showtimes). Es decir, deberéis encontrar una coincidencia dentro del array que (PISTA!)incluya la hora que paséis como parametro.
+  Para ello, deberéis filtrar dentro del array para encontrar una película que se emita a determinada hora (showtimes). Es decir, deberéis encontrar una coincidencia dentro del array que (PISTA!)incluya la hora que paséis como parametro.
 
         ```
         - La "petición" debe ejecutarse con Async-await.
